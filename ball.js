@@ -27,10 +27,10 @@ drawBall();
         xSpeed = -xSpeed;
     }
 
-//     if (y + radius > canvas.height || y - radius < 0)
-//     {
-//         ySpeed = -ySpeed;
-//     }
-// }
+    if (y + radius > canvas.height || y - radius < 0)
+    {
+        ySpeed = -ySpeed;
+    }
+}
 
 setInterval(drawBall, 20);
