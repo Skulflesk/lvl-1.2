@@ -5,6 +5,8 @@ var context = canvas.getContext("2d");
 var x = 500;
 var y = 250;
 var radius = 30;
+var xSpeed = 10;
+var ySpeed = 0;
 
 function drawBall()
 {
