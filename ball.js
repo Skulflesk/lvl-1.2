@@ -18,7 +18,7 @@ function drawBall()
 }
 
 drawBall();
-
+{
     x = x + xSpeed;
     y = y + ySpeed;
 
