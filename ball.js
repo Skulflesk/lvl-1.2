@@ -31,6 +31,6 @@ drawBall();
     {
         ySpeed = -ySpeed;
     }
-}
+
 
 setInterval(drawBall, 20);
