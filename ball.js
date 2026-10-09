@@ -5,8 +5,8 @@ var context = canvas.getContext("2d");
 var x = 500;
 var y = 250;
 var radius = 30;
-var xSpeed = 3;
-var ySpeed = 2;
+var xSpeed = 5;
+var ySpeed = 0;
 
 function drawBall()
 {
@@ -24,15 +24,15 @@ function drawBall()
     x = x + xSpeed;
     y = y + ySpeed;
 
-    if (x + radius > canvas.width || x - radius < 0)
-    {
-        xSpeed = -xSpeed;
-    }
+//     if (x + radius > canvas.width || x - radius < 0)
+//     {
+//         xSpeed = -xSpeed;
+//     }
 
-    if (y + radius > canvas.height || y - radius < 0)
-    {
-        ySpeed = -ySpeed;
-    }
-}
+//     if (y + radius > canvas.height || y - radius < 0)
+//     {
+//         ySpeed = -ySpeed;
+//     }
+// }
 
 setInterval(drawBall, 20);
