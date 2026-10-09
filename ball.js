@@ -18,7 +18,7 @@ function drawBall()
 }
 
 drawBall();
-
+{
     x = x + xSpeed;
     y = y + ySpeed;
 
@@ -31,6 +31,6 @@ drawBall();
     {
         ySpeed = -ySpeed;
     }
-
+}
 
 setInterval(drawBall, 20);
