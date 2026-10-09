@@ -21,18 +21,18 @@ function drawBall()
 
 
 
-//     x = x + xSpeed;
-//     y = y + ySpeed;
+    x = x + xSpeed;
+    y = y + ySpeed;
 
-// //     if (x + radius > canvas.width || x - radius < 0)
-// //     {
-// //         xSpeed = -xSpeed;
-// //     }
+    // if (x + radius > canvas.width || x - radius < 0)
+    // {
+    //     xSpeed = -xSpeed;
+    // }
 
-// //     if (y + radius > canvas.height || y - radius < 0)
-// //     {
-// //         ySpeed = -ySpeed;
-// //     }
-// // }
+    // if (y + radius > canvas.height || y - radius < 0)
+    // {
+    //     ySpeed = -ySpeed;
+    // }
+}
 
 setInterval(drawBall, 20);
