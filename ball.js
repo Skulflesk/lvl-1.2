@@ -19,7 +19,7 @@ function drawBall()
     context.fill();
 }
 
-moveBall();
+drawBall();
 {
     x = x + xSpeed;
     y = y + ySpeed;
@@ -35,4 +35,4 @@ moveBall();
     }
 }
 
-setInterval(moveBall, 20);
+setInterval(drawBall, 20);
